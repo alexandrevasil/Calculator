@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <div class="numbers">
+            <span>
+                <a class="_active1" href="#">1</a>
+                <a class="_active2" href="#">2</a>
+                <a class="_active3" href="#">3</a>
+            </span>
+        </div> -->
+        <header class="top-bar">
+            <div class="container">
+                <div class="top">
+                    <span>calc</span>
+                </div>
+                <div class="top" style="text-align: right;">
+                    <small>THEME</small>
+
+                    <div class="theme-switch-container">
+                        <div class="theme-switches">
+                            <label for="radio1" class="theme-switch">
+                                <span class="label">1</span>
+                                <input name="themeBtn" type="radio" id="radio1" class="theme-switch-btn"
+                                    onclick="switchTheme()" value="1" hidden>
+                            </label>
+                            <label for="radio2" class="theme-switch">
+                                <span class="label">2</span>
+                                <input name="themeBtn" type="radio" id="radio2" class="theme-switch-btn"
+                                    onclick="switchTheme()" value="2" hidden>
+                            </label>
+                            <label for="radio3" class="theme-switch">
+                                <span class="label">3</span>
+                                <input name="themeBtn" type="radio" id="radio3" class="theme-switch-btn"
+                                    onclick="switchTheme()" value="3" hidden>
+                            </label>
+                        </div>
+                        <div class="switch-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="bottom-bar">
+            <div class="container">
+                <p class="screen">399,981</p>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span id="delete">DEL</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>+</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>-</span>
+                <span>.</span>
+                <span>0</span>
+                <span>/</span>
+                <span>x</span>
+                <button class="exception btn">RESET</button>
+                <button class="equal btn1">=</button>
+            </div>
+    </div>
+    </section>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/alexandrevasil" target="_blank">Alexandre</a>.
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
