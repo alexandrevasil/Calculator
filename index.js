@@ -29,23 +29,21 @@
 // })
 
 function switchTheme() {
-    if (document.getElementById('radio1').checked == true) {
-        document.documentElement.setAttribute('data-theme', 'light')
-        localStorage.setItem('theme', 'light')
-    }
+  if (document.getElementById("radio1").checked == true) {
+    document.documentElement.setAttribute("data-theme", "light");
+    localStorage.setItem("theme", "light");
+  }
 
-    if (document.getElementById('radio2').checked == true) {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        localStorage.setItem('theme', 'dark')
-    }
+  if (document.getElementById("radio2").checked == true) {
+    document.documentElement.setAttribute("data-theme", "dark");
+    localStorage.setItem("theme", "dark");
+  }
 
-    if (document.getElementById('radio3').checked == true) {
-        document.documentElement.setAttribute('data-theme', 'dark2')
-        localStorage.setItem('theme', 'dark2')
-    }
+  if (document.getElementById("radio3").checked == true) {
+    document.documentElement.setAttribute("data-theme", "dark2");
+    localStorage.setItem("theme", "dark2");
+  }
 }
-
-
 
 // const toggleSwitch = document.getElementById('themeSwitcher')
 
